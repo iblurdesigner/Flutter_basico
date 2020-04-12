@@ -17,6 +17,9 @@ class ButtonPurple extends StatelessWidget{
             content: Text("Navegando"),
           )
         );
+        Icon(
+          Icons.favorite
+        );
       },
       child: Container(
         margin: EdgeInsets.only(
