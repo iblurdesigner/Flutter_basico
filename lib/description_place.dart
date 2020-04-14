@@ -53,7 +53,7 @@ class DescriptionPlace extends StatelessWidget {
     );
 
 
-    // << FILA QUE CONTIENE EL TITULO Y LAS ESTRELLAS >>
+    // << FILA QUE CONTIENE EL TITULO Y LAS ESTRELLAS // son dos rows >>
     final title_stars = Row(
       children: <Widget>[
         Container(
