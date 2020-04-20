@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'profile/header_profile.dart';
+import 'profile/card_profile_list.dart';
 
 
 class ProfileTrips extends StatelessWidget{
@@ -14,7 +15,12 @@ class ProfileTrips extends StatelessWidget{
 
     return Stack(
       children: <Widget>[
-        HeaderProfile()
+        HeaderProfile(),
+        ListView(
+          children: <Widget>[
+            CardProfileList()
+          ],
+        )
       ],
     );
   }

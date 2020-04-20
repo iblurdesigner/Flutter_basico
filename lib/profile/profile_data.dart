@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'icon_profile.dart';
 
 class ProfileData extends StatelessWidget {
 
@@ -95,7 +96,8 @@ class ProfileData extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: <Widget>[
-        avatar_info
+        avatar_info,
+        IconProfile(),
       ],
     );
 
